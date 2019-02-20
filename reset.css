@@ -1,0 +1,54 @@
+/* reset */
+* {}
+html, body, div, p, pre, h1, h2, h3, h4, h5, h6, menu, address, blockquote, hr, br, center, img, map, object, applet, form,  textarea, iframe, fieldset, legend, table, caption, thead, tbody, tfoot, tr, th, td, dl, dd, dt, ol, ul, li, header, footer, nav, section, article, aside, figure, figcaption, button {padding:0; margin:0;}
+a, span, em, strong, big, small, b, i, u, input, label, select {vertical-align:top;}
+body {font:normal 14px/1.5 'nbg', '맑은 고딕'; color:#333; word-break:keep-all;}
+ul, ol, dl {list-style:none;}
+table {border-collapse:collapse; border:0;}
+th, td {vertical-align:baseline;}
+fieldset {border:0;}
+img {border:0; vertical-align:top;}
+h1, h2, h3, h4, h5, h6 {font-size:100%; font-weight:normal;}
+address, caption, cite, code, dfn, em, strong, th, var, i, b {font-style:normal; font-weight:normal;}
+a {color:#000; text-decoration:none; background:transparent;}
+
+hr {position:absolute; visibility:hidden; width:0; height:0px; border:0;}
+
+
+button,html input[type="button"],input[type="submit"],input[type="reset"],input[type="file"]{-webkit-appearance:button; border-radius:0}
+input:checked[type="checkbox"]{ background-color:#fff; -webkit-appearance:checkbox; }
+button, input[type="reset"], input[type="button"], input[type="submit"] { line-height:normal !important; }
+
+input{font-family:"nbg";}
+input:focus {color:inherit;}
+textarea {width:100%; border:1px solid #CCC; -webkit-appearance:none}
+input[type="text"],
+input[type="password"],
+input[type="button"] {border-radius:0; -webkit-appearance:none;}
+input[type="text"], 
+input[type="password"] {height:30px; padding-left:5px; border:1px solid #c6c6c6; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -ms-box-sizing:border-box; color:#666; vertical-align:middle; -webkit-appearance:none}
+input[type="button"], 
+button {cursor:pointer; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -ms-box-sizing:border-box; *height:28px; *padding:0; font-family:"nbg"}
+button,input[type="button"],input[type="submit"],input[type="reset"],input[type="file"]{-webkit-appearance:button;border-radius:0}
+input[type="radio"], 
+input[type="checkbox"] {border:none; /*-webkit-appearance:none;*/-webkit-border-radius:0;}
+
+input[type="file"] {background:none !important;}
+input[type="file"], 
+select {padding:0 5px; -webkit-appearance:none; -moz-appearance:none; appearance:none; background:url("ico_select.png")no-repeat right center; font-family:"nbg"; color:#9e9e9e;}
+select::-ms-expand {display:none;}
+input:-ms-input-placeholder {font-size:12px; color:#828282; text-align:center; font-family:"nbg"; padding-top:2px;}
+input::-webkit-input-placeholder {font-size:12px; color:#828282; text-align:center; font-family:"nbg"; padding-top:2px;}
+input::-moz-placeholder {font-size:12px; color:#828282; text-align:center; font-family:"nbg"; padding-top:2px;}
+input::-moz-placeholder {font-size:12px; color:#828282; text-align:center; font-family:"nbg"; padding-top:2px;}
+input:checked[type="checkbox"]{-webkit-appearance:checkbox}
+/* html5 ==================================================================================================== */
+header, footer, section, article, nav, menu, aside, figcaption, figure, details, hgroup, canvas {display:block;}
+
+/* common ==================================================================================================== */
+.hide {visibility:hidden; overflow:hidden; position:absolute; width:0; height:0; font-size:0; line-height:0;}
+.blind {position:absolute; top:0px; left:0px; overflow:hidden; display:inline-block  !important; width:1px !important; height:1px !important; margin:0 !important; font-size:0 !important; line-height:0 !important;}
+.clearfix {*zoom:1;}
+.clearfix:after {content:""; display:block; clear:both; *zoom:1;}
+.clear {clear:both;}
+
